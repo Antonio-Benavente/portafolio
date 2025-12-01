@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import '../styles/About.css'
 import { CertificatesModal } from './CertificatesModal';
-import aboutImg from "../../assets/about.png"; 
+import aboutImg from "../../assets/about.png";
 
 export function About({ isDarkMode }) {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -27,9 +27,9 @@ export function About({ isDarkMode }) {
 
                         <div className="about-text">
                             <p className="about-description">
-                                Hola, soy <strong>Antonio Benavente</strong>, desarrollador frontend con sólidos conocimientos en <strong>HTML, CSS, JavaScript, React, Node.js y TypeScript</strong>. Me apasiona crear interfaces intuitivas, limpias y responsivas, enfocadas en la mejor experiencia de usuario.
+                                Hola, soy <strong>Antonio Benavente</strong>, desarrollador fullstack con sólidos conocimientos en <strong>HTML, CSS, JavaScript, React, Node.js y TypeScript</strong>. Me apasiona crear interfaces intuitivas, limpias y responsivas, enfocadas en brindar la mejor experiencia de usuario.
                             </p>
-
+                            
                             <p className="about-description">
                                 He desarrollado diversos proyectos personales que demuestran mi capacidad para construir
                                 aplicaciones web funcionales y modernas. Mi objetivo es siempre aprender nuevas tecnologías
@@ -38,8 +38,8 @@ export function About({ isDarkMode }) {
 
                             <p className="about-description">
                                 Egresado de <strong>Desarrollo de Sistemas de Información</strong> en el Instituto SISE,
-                                donde adquirí una base sólida en desarrollo de software y mejores prácticas.
-                            </p>
+                                donde adquirí una base sólida en el desarrollo de software y buenas prácticas.
+                            </p>    
 
                             <button className="about-btn" onClick={() => setIsModalOpen(true)}>
                                 Ver certificados
